@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #d8c0f0;
+  color: #00796b;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #d8c0f0 repeat; /*Change front page color from light green to purple*/
   position: relative;
 }
 
