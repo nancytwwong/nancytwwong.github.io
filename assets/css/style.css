@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #fc83ec repeat; /*Change front page color from light green to light purple*/
+  background: #ff8ef0 repeat; /*Change front page color from light green to light purple*/
   position: relative;
 }
 
@@ -549,7 +549,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #6d0080 !important; /*008073-->6d0080 - Changed green to purple - text*/
+  color: #80006b !important; /*008073-->80006b - Changed green to purple - text*/
 }
 
 /* .teal-text {
@@ -559,7 +559,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #6d0080 !important; /*008073-->6d0080 - Changed green to purple - banners*/
+  background-color: #80006b !important; /*008073-->80006b - Changed green to purple - banners*/
 }
 
 /* .teal {
