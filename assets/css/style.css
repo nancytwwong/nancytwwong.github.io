@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #5d0079;
+  color: #5d0079; /*00796b-->5d0079 - Changed green to purple - read me page*/
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #5d0079;
+  color: #5d0079; /*00796b-->5d0079 - Changed green to purple - contact me hover*/
   background-color: white;
 }
 /* main body */
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #f3c8f9 repeat; /*Change front page color from light green to light purple*/
+  background: #fbb4fd repeat; /*Change front page color from light green to light purple*/
   position: relative;
 }
 
@@ -549,7 +549,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #6d0080 !important;
+  color: #6d0080 !important; /*008073-->6d0080 - Changed green to purple - text*/
 }
 
 /* .teal-text {
@@ -559,7 +559,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #6d0080 !important;
+  background-color: #6d0080 !important; /*008073-->6d0080 - Changed green to purple - banners*/
 }
 
 /* .teal {
@@ -602,7 +602,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #640096;
+    color: #640096; /*009688-->640096  Changed green to purple - Buttons on left*/
     height: 56px;
     line-height: 56px;
   }
