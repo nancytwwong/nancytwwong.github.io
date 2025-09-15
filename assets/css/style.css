@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #48004d;
 }
 
 /* main blockqoute */
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat; /*Change front page color from light green to purple*/
+  background: #f5a7ff repeat; /*Change front page color from light green to light purple*/
   position: relative;
 }
 
@@ -473,7 +473,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #48004d !important; /*Change color from dark green to dark purple*/
 }
 
 #skills .card.large {
