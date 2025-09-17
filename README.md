@@ -4,7 +4,7 @@
 > https://nancytwwong.github.io
 
 Activity1:
-![Activity 1](img/Activity1_Screenshot1.png)
+![Activity 1](assets/img/Activity1_Screenshot1.png)
 
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
