@@ -3,23 +3,23 @@
 
 > https://nancytwwong.github.io
 
-Activity 1:
+Activity 1:  
 ![Activity 1 Repo](assets/img/Activity1_Screenshot1.png)
 
-Activity 2:
-![Activity 2 Deploy](assets/img/Activity2_Screenshot1_Deploy.png)
+Activity 2:  
+![Activity 2 Deploy](assets/img/Activity2_Screenshot1_Deploy.png)  
 ![Activity 2 Repo](assets/img/Activity2_Screenshot1_Repo.png)
 
-Activity 3:
-![Activity 3 Deploy](assets/img/Activity3_Screenshot1_Deploy.png)
+Activity 3:  
+![Activity 3 Deploy](assets/img/Activity3_Screenshot1_Deploy.png)  
 ![Activity 3 Repo](assets/img/Activity3_Screenshot1_Repo.png)
 
-Activity 4:
-![Activity 4 Deploy](assets/img/Activity4_Screenshot1_Deploy.png)
+Activity 4:  
+![Activity 4 Deploy](assets/img/Activity4_Screenshot1_Deploy.png)  
 ![Activity 4 Repo](assets/img/Activity4_Screenshot1_Repo.png)
 
-Activity 5:
-![Activity 5 Deploy](assets/img/Activity5_Screenshot1_Deploy.png)
+Activity 5:  
+![Activity 5 Deploy](assets/img/Activity5_Screenshot1_Deploy.png)  
 ![Activity 5 Repo](assets/img/Activity5_Screenshot1_Repo.png)
 
 # Personal Portfolio ⚡️ 
