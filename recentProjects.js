@@ -55,12 +55,12 @@ let currentProject = 0;
 // Utility to clear all loaded projects from DOM
 function clearProjects() {
   // 3. Clears the target <div> where JS will inject content
-  document.getElementById("projects-card-container").innerHTML = "";
+  document.getElementById("projects-row").innerHTML = "";
 }
 
 // 4. Function to generate and inject HTML for a project using DOM manipulation
 function renderProject(project) {
-  const container = document.getElementById("projects-card-container");
+  const container = document.getElementById("projects-row");
 
   const cardHTML = `
     <div class="col s12 m6 l4">
