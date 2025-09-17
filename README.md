@@ -1,10 +1,15 @@
 # Name: Nancy Wong
 # this repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io
 
+> https://nancytwwong.github.io
+
+Activity1:
+![Activity 1](img/Activity1_Screenshot1.png)
+
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-> https://nancytwwong.github.io
+
 
 ![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
 ![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
