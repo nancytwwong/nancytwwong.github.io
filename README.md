@@ -4,7 +4,7 @@
 > https://nancytwwong.github.io
 
 Activity 1:
-![Activity 1 Repo] (assets/img/Activity1_Screenshot1.png)
+![Activity 1 Repo](assets/img/Activity1_Screenshot1.png)
 
 Activity 2:
 ![Activity 2 Deploy](assets/img/Activity2_Screenshot1_Deploy.png)
