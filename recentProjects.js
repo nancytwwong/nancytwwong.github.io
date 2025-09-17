@@ -55,12 +55,12 @@ let currentProject = 0;
 // Utility to clear all loaded projects from DOM
 function clearProjects() {
   // 3. Clears the target <div> where JS will inject content
-  document.getElementById("projects-row").innerHTML = "";
+  document.getElementById("projects-card-container").innerHTML = "";
 }
 
 // 4. Function to generate and inject HTML for a project using DOM manipulation
 function renderProject(project) {
-  const container = document.getElementById("projects-row");
+  const container = document.getElementById("projects-card-container");
 
   const cardHTML = `
     <div class="col s12 m6 l4">
@@ -110,7 +110,7 @@ function showNextProject() {
 
     // 6. When all projects are shown, change button to say "Collapse"
     if (currentProject === dynamicProjects.length) {
-      const btn = document.getElementById("project-action-btn");
+      const btn = document.getElementById("toggle-project-btn");
       btn.textContent = "Collapse";
     }
   } else {
@@ -120,7 +120,7 @@ function showNextProject() {
     renderProject(dynamicProjects[currentProject]);
     currentProject = 1;
 
-    const btn = document.getElementById("project-action-btn");
+    const btn = document.getElementById("toggle-project-btn");
     btn.textContent = "Load More";
   }
 }
@@ -131,6 +131,6 @@ document.addEventListener("DOMContentLoaded", () => {
   currentProject = 1;
 
   // 5. Hook up the Load More / Collapse button
-  const btn = document.getElementById("project-action-btn");
+  const btn = document.getElementById("toggle-project-btn");
   btn.addEventListener("click", showNextProject);
 });
