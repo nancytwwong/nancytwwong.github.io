@@ -5,8 +5,8 @@ const dynamicProjects = [
     Summary: "Built an app that allows users to simplify outfit planning",
     Description: `
       <li><b>Tools:</b> Django, JavaScript, FireBase, React Native</li>
-      <li>Built an app that allows users to upload pictures of their clothing and combine items to create and save outfits for inspiration.</li>
-      <li>Items currently in the laundry can be marked so they are excluded from recommendations, and users can filter clothing by tags.</li>
+      <li>Built an app that allows users to upload pictures clothing and combine items to create and save outfits.</li>
+      <li>Items in the laundry can be marked to be excluded from recommendations, and users can filter clothing by tags.</li>
     `,
     image: "/assets/img/project-outfit.png",
     webLink: "",
