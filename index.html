@@ -106,8 +106,7 @@
         <!-- mdi-av-web small
              mdi-av-my-library-books small-->
         <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span> Recent Projects</span></a> <!-- Section 5-->
-      </li>
+            class="mdi-av-my-library-books small"></i><span> Recent Projects</span></a> <!-- 1. Updated the section “Projects” to include most recent projects -->
 
       <li class="bold">
         <!--
@@ -468,11 +467,14 @@
 <section id="projects" class="section scrollspy">
   <h3 class="page-title white-text teal">Recent Projects</h3>
   <div class="container">
+    <!-- 3. div gets filled dynamically -->
     <div id="projects-row" class="row">
       <!-- JS will inject project cards here -->
     </div>
     <div class="center" style="margin-top: 20px;">
+      <!-- 5. Button to load more projects or collapse -->
       <button id="project-action-btn" class="btn teal">Load More</button>
+      <!-- load JS file -->
       <script src="recentProjects.js"></script>
     </div>
   </div>

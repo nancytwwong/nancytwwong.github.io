@@ -1,3 +1,4 @@
+// 1. Updated the section “Projects” to include most recent projects
 const dynamicProjects = [
   {
     title: "Outfit App",
@@ -48,12 +49,16 @@ const dynamicProjects = [
   }
 ];
 
+// Tracks how many projects are currently displayed
 let currentIndex = 0;
 
+// Utility to clear all loaded projects from DOM
 function clearProjects() {
+  // 3. Clears the target <div> where JS will inject content
   document.getElementById("projects-row").innerHTML = "";
 }
 
+// 4. Function to generate and inject HTML for a project using DOM manipulation
 function renderProject(project) {
   const container = document.getElementById("projects-row");
 
@@ -97,17 +102,19 @@ function renderProject(project) {
   container.insertAdjacentHTML("beforeend", cardHTML);
 }
 
+// 5. Handles loading one project at a time, then collapses back to the first
 function loadNextProject() {
   if (currentIndex < dynamicProjects.length) {
     renderProject(dynamicProjects[currentIndex]);
     currentIndex++;
 
+    // 6. When all projects are shown, change button to say "Collapse"
     if (currentIndex === dynamicProjects.length) {
       const btn = document.getElementById("project-action-btn");
       btn.textContent = "Collapse";
     }
   } else {
-    // Collapse to initial state
+    // 6. Collapse to only the first project
     clearProjects();
     currentIndex = 0;
     renderProject(dynamicProjects[currentIndex]);
@@ -118,10 +125,12 @@ function loadNextProject() {
   }
 }
 
+// 2. On page load, only show the most recent project
 document.addEventListener("DOMContentLoaded", () => {
   renderProject(dynamicProjects[0]);
   currentIndex = 1;
 
+  // 5. Hook up the Load More / Collapse button
   const btn = document.getElementById("project-action-btn");
   btn.addEventListener("click", loadNextProject);
 });
